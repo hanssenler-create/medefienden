@@ -114,7 +114,7 @@ export default function MedefiendenHomepage() {
     }
 
     try {
-      const response = await fetch("http://localhost:3001/crear-preferencia", {
+      const response = await fetch("/api/crear-preferencia", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
