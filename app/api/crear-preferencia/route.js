@@ -46,14 +46,14 @@ export async function POST(req) {
           descripcion,
           modalidad,
         },
-        back_urls: {
-          success: "https://medefienden.vercel.app/",
-          failure: "https://medefienden.vercel.app/",
-          pending: "https://medefienden.vercel.app/",
-        },
-        auto_return: "approved",
-      },
-    });
+   back_urls: {
+  success: "https://medefienden.vercel.app/gracias",
+  failure: "https://medefienden.vercel.app/error",
+  pending: "https://medefienden.vercel.app/pendiente",
+},
+auto_return: "approved",
+    },
+});
 
     return Response.json({
       id: response.id,
