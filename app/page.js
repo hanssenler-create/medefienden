@@ -113,8 +113,23 @@ export default function MedefiendenHomepage() {
       return;
     }
 
-    try {
-      const response = await fetch("/api/crear-preferencia", {
+   try {
+  await fetch("/api/contacto", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      modalidad: formData.modalidad,
+      nombre: formData.nombre,
+      email: formData.email,
+      telefono: formData.telefono,
+      area: formData.area,
+      descripcion: formData.descripcion,
+    }),
+  });
+
+  const response = await fetch("/api/crear-preferencia", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
