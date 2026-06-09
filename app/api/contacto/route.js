@@ -29,7 +29,7 @@ export async function POST(req) {
         <div style="font-family: Arial, sans-serif; padding: 20px;">
 
           <h2 style="color:#111;">
-            Nueva solicitud recibida
+            Nueva solicitud recibida 
           </h2>
 
           <hr />
