@@ -21,7 +21,7 @@ export async function POST(req) {
 
       from: "Me Defienden <onboarding@resend.dev>",
 
-      to: "hans.senler@gmail.com",
+      to: "medefienden.agenda@gmail.com",,
 
       subject: "Nueva solicitud de contacto - Me Defienden",
 
