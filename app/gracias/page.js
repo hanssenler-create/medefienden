@@ -11,8 +11,7 @@ export default function Page() {
         </h1>
 
         <p className="text-white/70 text-lg mb-8 leading-relaxed">
-          Su pago fue recibido correctamente. Dentro de 24 horas hábiles
-          tomaremos contacto para coordinar su reunión jurídica.
+          Su pago ha sido recibido correctamente. Dentro de las próximas 24 horas hábiles nos pondremos en contacto con usted para coordinar su reunión de análisis de antecedentes jurídicos.
         </p>
 
         <a
