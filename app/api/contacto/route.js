@@ -19,7 +19,7 @@ export async function POST(req) {
 
     const result = await resend.emails.send({
 
-      from: "Me Defienden <onboarding@resend.dev>",
+      from: "Me Defienden <agenda@medefienden.cl>",
 
       to: "medefienden.agenda@gmail.com",
 
